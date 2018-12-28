@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.aflutterstudios.belongstickerpack;
+package com.aflutterstudios.BelongStickerPack;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -22,18 +22,18 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.PUBLISHER_EMAIL;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.PUBLISHER_WEBSITE;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
-import static com.aflutterstudios.belongstickerpack.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.PUBLISHER_EMAIL;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.PUBLISHER_WEBSITE;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
+import static com.aflutterstudios.BelongStickerPack.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
 
 public class StickerPackLoader {
 

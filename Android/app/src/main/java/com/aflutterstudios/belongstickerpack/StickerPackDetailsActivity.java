@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.aflutterstudios.belongstickerpack;
+package com.aflutterstudios.BelongStickerPack;
 
 import android.content.Intent;
 import android.net.Uri;

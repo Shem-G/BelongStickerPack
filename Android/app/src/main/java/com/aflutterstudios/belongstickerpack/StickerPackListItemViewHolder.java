@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.aflutterstudios.belongstickerpack;
+package com.aflutterstudios.BelongStickerPack;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
