@@ -35,6 +35,9 @@ public class StickerPackInfoActivity extends BaseActivity {
 
         final String trayIconUriString = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_TRAY_ICON);
         final String website = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_WEBSITE);
+        final String pubTwitter = "https://www.twitter.com/aflutterstudios";
+        final String artTwitter = "https://www.twitter.com/asiearts";
+        final String devTwitter = "https://www.twitter.com/shinthedev";
         final String privacyPolicy = getIntent().getStringExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_PRIVACY_POLICY);
 
         final TextView trayIcon = findViewById(R.id.tray_icon);
@@ -53,6 +56,27 @@ public class StickerPackInfoActivity extends BaseActivity {
             viewWebpage.setVisibility(View.GONE);
         } else {
             viewWebpage.setOnClickListener(v -> launchWebpage(website));
+        }
+
+        final TextView publisherTwitter = findViewById(R.id.publisher_twitter);
+        if (TextUtils.isEmpty(pubTwitter)) {
+            publisherTwitter.setVisibility(View.GONE);
+        } else {
+            publisherTwitter.setOnClickListener(v -> launchWebpage(pubTwitter));
+        }
+
+        final TextView artistTwitter = findViewById(R.id.artist_credit);
+        if (TextUtils.isEmpty(artTwitter)) {
+            artistTwitter.setVisibility(View.GONE);
+        } else {
+            artistTwitter.setOnClickListener(v -> launchWebpage(artTwitter));
+        }
+
+        final TextView developerTwitter = findViewById(R.id.dev_credit);
+        if (TextUtils.isEmpty(devTwitter)) {
+            developerTwitter.setVisibility(View.GONE);
+        } else {
+            developerTwitter.setOnClickListener(v -> launchWebpage(devTwitter));
         }
 
         final TextView viewPrivacyPolicy = findViewById(R.id.privacy_policy);

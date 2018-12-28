@@ -21,11 +21,11 @@
             android:drawableStart="@drawable/sticker_3rdparty_web"
             android:text="@string/view_webpage" />
         <TextView
-            android:id="@+id/follow_on_twitter"
+            android:id="@+id/publisher_twitter"
             style="@style/InfoButtonStyle"
             android:drawableLeft="@drawable/ic_twitter_logo_blue"
             android:drawableStart="@drawable/ic_twitter_logo_blue"
-            android:text="@string/follow_on_twitter" />
+            android:text="@string/publisher_twitter" />
         <TextView
             android:id="@+id/artist_credit"
             style="@style/InfoButtonStyle"
