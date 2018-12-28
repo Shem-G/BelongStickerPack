@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.samplestickerapp">
+    package="com.aflutterstudios.belongstickerpack">
 
     <application
         android:allowBackup="false"
@@ -28,7 +28,7 @@
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackListActivity" />
+                android:value=".StickerPackListActivity" />
         </activity>
         <activity
             android:name=".StickerPackInfoActivity"
@@ -37,7 +37,7 @@
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackDetailsActivity" />
+                android:value=".StickerPackDetailsActivity" />
         </activity>
 
         <provider

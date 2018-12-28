@@ -13,6 +13,37 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/view_webpage"
+            style="@style/InfoButtonStyle"
+            android:drawableLeft="@drawable/sticker_3rdparty_web"
+            android:drawableStart="@drawable/sticker_3rdparty_web"
+            android:text="@string/view_webpage" />
+        <TextView
+            android:id="@+id/follow_on_twitter"
+            style="@style/InfoButtonStyle"
+            android:drawableLeft="@drawable/ic_twitter_logo_blue"
+            android:drawableStart="@drawable/ic_twitter_logo_blue"
+            android:text="@string/follow_on_twitter" />
+        <TextView
+            android:id="@+id/artist_credit"
+            style="@style/InfoButtonStyle"
+            android:drawableLeft="@drawable/ic_twitter_logo_blue"
+            android:drawableStart="@drawable/ic_twitter_logo_blue"
+            android:text="@string/artist_credit" />
+        <TextView
+            android:id="@+id/dev_credit"
+            style="@style/InfoButtonStyle"
+            android:drawableLeft="@drawable/ic_twitter_logo_blue"
+            android:drawableStart="@drawable/ic_twitter_logo_blue"
+            android:text="@string/dev_credit" />
+        <TextView
+            android:id="@+id/privacy_policy"
+            style="@style/InfoButtonStyle"
+            android:drawableLeft="@drawable/sticker_3rdparty_privacy"
+            android:drawableStart="@drawable/sticker_3rdparty_privacy"
+            android:text="@string/privacy_policy" />
         <TextView
             android:id="@+id/tray_icon"
             style="@style/InfoButtonStyle"
@@ -21,26 +52,5 @@
             tools:drawableStart="@drawable/sticker_3rdparty_web"
             android:clickable="false"
             android:text="@string/info_screen_tray_icon" />
-
-        <TextView
-            android:id="@+id/view_webpage"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_web"
-            android:drawableStart="@drawable/sticker_3rdparty_web"
-            android:text="@string/view_webpage" />
-
-        <TextView
-            android:id="@+id/send_email"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_email"
-            android:drawableStart="@drawable/sticker_3rdparty_email"
-            android:text="@string/send_email" />
-
-        <TextView
-            android:id="@+id/privacy_policy"
-            style="@style/InfoButtonStyle"
-            android:drawableLeft="@drawable/sticker_3rdparty_privacy"
-            android:drawableStart="@drawable/sticker_3rdparty_privacy"
-            android:text="@string/privacy_policy" />
     </LinearLayout>
 </LinearLayout>
