@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">BelongStickerPack</string>
+    <string name="app_name">Belong Sticker Pack for Whatsapp</string>
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
-    <string name="more_info_button">More info about sticker pack</string>
+    <string name="more_info_button">More info about the Belong sticker pack</string>
     <string name="add_to_whatsapp">Add to WhatsApp</string>
     <string name="add_button_content_description">Add sticker pack to WhatsApp</string>
     <string name="title_activity_sticker_packs_list">Sticker Packs</string>
@@ -21,7 +21,7 @@
     <string name="add_pack_fail_prompt_update_whatsapp">Sticker pack not added. If you\'d like to add it, make sure you update to the latest version of WhatsApp.</string>
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
-    <string name="follow_on_twitter">Follow @AflutterStudios on Twitter</string>
+    <string name="follow_on_twitter"><a href="https://twitter.com/aflutterstudios" target="_top">Follow @AflutterStudios on Twitter</a></string>
     <string name="artist_credit">Sticker art by @asiearts</string>
-    <string name="dev_credit">Sticker app developed by @ShinTheDev</string>
+    <string name="dev_credit">App developed by @ShinTheDev</string>
 </resources>
